@@ -17,6 +17,7 @@ public class DatabaseLayout extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.newdb_layout);
+
         name = (EditText) findViewById(R.id.txtName);
         loc = (EditText) findViewById(R.id.txtLocation);
         desig = (EditText) findViewById(R.id.txtDesignation);
